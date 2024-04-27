@@ -16,7 +16,7 @@ if ($conn->connect_error) {
 ?>
 <?php
 // Step 1: Establish connection to the database
-$conn = new mysqli('localhost', 'root', '', 'test');
+$conn = new mysqli('127.0.0.1:3306', 'u273394276_root', 'Uririnathaniel+1@gmail.com', 'u273394276_test');
 if ($conn->connect_error) {
     die('Connection Failed: ' . $conn->connect_error);
 }
