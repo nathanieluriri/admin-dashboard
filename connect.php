@@ -2,7 +2,7 @@
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$conn = new mysqli('localhost', 'root', '', 'test');
+$conn = new mysqli('127.0.0.1:3306', 'u273394276_root', 'Uririnathaniel+1@gmail.com', 'u273394276_test');
 if ($conn->connect_error) {
     die('Connection Failed: ' . $conn->connect_error);
 } else {
